@@ -10,7 +10,12 @@
 
 ####集成方法:
 
-只需要在创建UIImageView时调用分类方法:
+1.引用头文件:
+```Objective-C
+#import "UIImageView+XXImageBrowser.h"
+```
+
+2.只需要在创建UIImageView时调用分类方法:
 ```Objective-C
 [header setImageBrowseAndSaveEnabled:YES];
 或者
