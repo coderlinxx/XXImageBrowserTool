@@ -134,8 +134,12 @@ static CGPoint netTranslation;                  //平衡
 
 - (void)imageSavedToPhotosAlbum:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(id)contextInfo{
     if(error != NULL){
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"save photo fail" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
         NSLog(@"save photo fail");
     }else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"save photo success" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
         NSLog(@"save photo success");
     }
 }

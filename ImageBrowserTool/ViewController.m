@@ -35,7 +35,7 @@
     header.contentMode = UIViewContentModeScaleAspectFill;
     header.clipsToBounds = YES;
     
-    [header setImageBrowseEnabled:YES];
+    [header setImageBrowseAndSaveEnabled:YES];
     
     return header;
 }
