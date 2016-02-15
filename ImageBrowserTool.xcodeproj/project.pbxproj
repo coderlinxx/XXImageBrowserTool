@@ -13,6 +13,7 @@
 		C4F79C351C7174960082CF71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F79C331C7174960082CF71 /* Main.storyboard */; };
 		C4F79C371C7174960082CF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F79C361C7174960082CF71 /* Assets.xcassets */; };
 		C4F79C3A1C7174960082CF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F79C381C7174960082CF71 /* LaunchScreen.storyboard */; };
+		C4FE43BC1C7175D000043707 /* UIImageView+XXImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FE43BB1C7175D000043707 /* UIImageView+XXImageBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C4F79C361C7174960082CF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4F79C391C7174960082CF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4F79C3B1C7174960082CF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FE43BA1C7175D000043707 /* UIImageView+XXImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XXImageBrowser.h"; sourceTree = "<group>"; };
+		C4FE43BB1C7175D000043707 /* UIImageView+XXImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XXImageBrowser.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +61,11 @@
 		C4F79C291C7174960082CF71 /* ImageBrowserTool */ = {
 			isa = PBXGroup;
 			children = (
+				C4FE43B91C71754200043707 /* XXImageBrowseTool */,
 				C4F79C2D1C7174960082CF71 /* AppDelegate.h */,
 				C4F79C2E1C7174960082CF71 /* AppDelegate.m */,
 				C4F79C301C7174960082CF71 /* ViewController.h */,
 				C4F79C311C7174960082CF71 /* ViewController.m */,
-				C4F79C331C7174960082CF71 /* Main.storyboard */,
-				C4F79C361C7174960082CF71 /* Assets.xcassets */,
-				C4F79C381C7174960082CF71 /* LaunchScreen.storyboard */,
-				C4F79C3B1C7174960082CF71 /* Info.plist */,
 				C4F79C2A1C7174960082CF71 /* Supporting Files */,
 			);
 			path = ImageBrowserTool;
@@ -74,9 +74,22 @@
 		C4F79C2A1C7174960082CF71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C4F79C331C7174960082CF71 /* Main.storyboard */,
+				C4F79C361C7174960082CF71 /* Assets.xcassets */,
+				C4F79C381C7174960082CF71 /* LaunchScreen.storyboard */,
+				C4F79C3B1C7174960082CF71 /* Info.plist */,
 				C4F79C2B1C7174960082CF71 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4FE43B91C71754200043707 /* XXImageBrowseTool */ = {
+			isa = PBXGroup;
+			children = (
+				C4FE43BA1C7175D000043707 /* UIImageView+XXImageBrowser.h */,
+				C4FE43BB1C7175D000043707 /* UIImageView+XXImageBrowser.m */,
+			);
+			path = XXImageBrowseTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F79C321C7174960082CF71 /* ViewController.m in Sources */,
+				C4FE43BC1C7175D000043707 /* UIImageView+XXImageBrowser.m in Sources */,
 				C4F79C2F1C7174960082CF71 /* AppDelegate.m in Sources */,
 				C4F79C2C1C7174960082CF71 /* main.m in Sources */,
 			);
@@ -298,6 +312,7 @@
 				C4F79C401C7174960082CF71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
