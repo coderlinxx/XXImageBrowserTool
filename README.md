@@ -1,4 +1,5 @@
 # XXImageBrowserTool
+
 一个用简单的方式实现的UIImageView的分类,让以UIImageView为容器展示的任何图片都可以简单实现全屏放大缩小保存等功能.
 
 用分类的方式实现可以更方便的调用.
